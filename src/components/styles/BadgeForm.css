@@ -1,0 +1,10 @@
+.confirm-new-badge {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+p.text-danger {
+    font-size: 1rem;
+    margin: 0 0 0 15px;
+}
