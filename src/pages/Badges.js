@@ -4,7 +4,7 @@ import api from '../api';
 import BadgesList from '../components/BadgesList';
 import PageLoading from '../components/PageLoading'
 import PageError from '../components/PageError'
-import confLogo from '../images/badge-header.svg';
+// import confLogo from '../images/badge-header.svg';
 import './styles/Badges.css';
 
 

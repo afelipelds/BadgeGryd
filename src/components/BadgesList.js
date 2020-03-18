@@ -2,6 +2,7 @@ import React from 'react';
 
 import './styles/BadgesList.css';
 import Gravatar from './Gravatar';
+import { Link } from 'react-router-dom';
 
 class BadgesListItem extends React.Component {
   render() {
@@ -45,7 +46,9 @@ class BadgesList extends React.Component {
           {this.props.badges.map(badge => {
             return (
               <li key={badge.id}>
-                <BadgesListItem badge={badge} />
+                <Link to={`/badges/${badge.id}`} className="text-reset text-decoration-none" >
+                  <BadgesListItem badge={badge} />
+                </Link>
               </li>
             );
           })}
